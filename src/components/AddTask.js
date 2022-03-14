@@ -27,7 +27,7 @@ function AddTask({onAdd}) {
         <label>Task</label>
         <input
           type="text"
-          placeholder="Add Task"
+          placeholder=" Task"
           value={text}
           onChange={(e) => setText(e.target.value)}
         />
