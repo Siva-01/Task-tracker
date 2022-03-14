@@ -51,7 +51,7 @@ function AddTask({onAdd}) {
           onChange={(e) => setRemin(e.currentTarget.checked)}
         />
       </div>
-      <input type="submit" value="save task" className="btn btn-block" />
+      <input type="submit" value="create task" className="btn btn-block" />
     </form>
   );
 }
